@@ -46,7 +46,7 @@ public class TabuleiroConsole {
 
 			while (!tabuleiro.objetivoAlcancado()) {
 
-				System.out.println("\nCanpo Minado\n");
+				System.out.println("\nCampo Minado\n");
 				System.out.println(tabuleiro);
 				String digitado = capturarValorDigitado("Digite (x,y): ");
 
